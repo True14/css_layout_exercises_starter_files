@@ -1,19 +1,24 @@
-.mainContainer {
+main {
   width: 800px;
   height: 500px;
   margin-left: auto;
   margin-right: auto;
   font-size: 0;
+  padding: 30px;
 }
-
-.greenBox {
+.box {
+  border: 1px solid black;
+}
+.green {
   width: 50%;
   height: 200px;
   background-color: green;
+  display: inline-block;
 }
 
-.blueBox {
+.blue {
   width: 50%;
   height: 200px;
   background-color: blue;
+  display: inline-block;
 }
