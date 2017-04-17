@@ -1,0 +1,19 @@
+.mainContainer {
+  width: 800px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+}
+
+.greenBox {
+  width: 50%;
+  height: 200px;
+  background-color: green;
+}
+
+.blueBox {
+  width: 50%;
+  height: 200px;
+  background-color: blue;
+}
