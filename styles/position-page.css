@@ -7,6 +7,10 @@ nav {
   height: 60px;
 }
 
+main {
+  padding: 90px;
+}
+
 .logo {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -31,4 +35,30 @@ li:not(:first-child):before {
 
 li a:hover {
   color:black;
+}
+
+.dotBox {
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 150px;
+  position: relative;
+  width: 600px;
+  height: 300px;
+  border: 10px green dotted;
+}
+
+.spaceCat, .spaceDog {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+.spaceCat {
+  top: -90px;
+  left: -90px;
+}
+
+.spaceDog {
+  bottom: -120px;
+  right: -55px;
 }
