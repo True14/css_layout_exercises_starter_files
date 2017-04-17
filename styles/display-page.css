@@ -8,17 +8,33 @@ main {
 }
 .box {
   border: 1px solid black;
+  display: inline-block;
 }
 .green {
   width: 50%;
   height: 200px;
   background-color: green;
-  display: inline-block;
 }
 
 .blue {
   width: 50%;
   height: 200px;
   background-color: blue;
-  display: inline-block;
+}
+
+.grey, .black, .yellow {
+  width: 33.33%;
+  height: 300px;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.black {
+  background-color: black;
+}
+
+.yellow {
+  background-color: orange;
 }
