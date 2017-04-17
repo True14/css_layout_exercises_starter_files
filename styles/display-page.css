@@ -22,7 +22,7 @@ main {
   background-color: blue;
 }
 
-.grey, .black, .yellow {
+.grey, .black, .orange {
   width: 33.33%;
   height: 300px;
 }
@@ -35,6 +35,6 @@ main {
   background-color: black;
 }
 
-.yellow {
+.orange {
   background-color: orange;
 }
