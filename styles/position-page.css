@@ -62,3 +62,8 @@ li a:hover {
   bottom: -120px;
   right: -55px;
 }
+
+body {
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
